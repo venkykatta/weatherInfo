@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css') }}">
   </head>
   <body>
   <section class="section">
     <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
+        <div class="is-flex">
+            <div class="title has-text-centered weather-title">
+                Weather Info
+            </div>
+        </div>
     </div>
   </section>
   </body>
