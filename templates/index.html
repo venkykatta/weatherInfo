@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css') }}">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+        <div class="is-flex">
+            <div class="title has-text-centered weather-title">
+                Weather Info
+            </div>
+        </div>
+    </div>
+  </section>
+  </body>
 </html>
