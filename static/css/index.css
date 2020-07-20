@@ -1,3 +1,22 @@
 .weather-title {
     width: 100%;
 }
+
+.weather-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-input {
+    width: 50%;
+}
